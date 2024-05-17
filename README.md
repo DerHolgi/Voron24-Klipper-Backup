@@ -1,1 +1,1 @@
-Dies ist mein perönliches Backup Repository
+Dies ist mein persönliches Klipper-Backup-Repository.
