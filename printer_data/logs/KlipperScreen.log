@@ -11906,3 +11906,99 @@ heater_bed = False
 2024-05-17 13:16:35,858 [printer.py:init_temp_store()] - Temp store: ['temperature_sensor cartographer_coil', 'heater_bed', 'temperature_sensor chamber', 'temperature_sensor raspberry_pi', 'extruder']
 2024-05-17 13:16:35,860 [KlippyRest.py:_do_request()] - Sending get to http://127.0.0.1:7125/server/temperature_store
 2024-05-17 13:16:35,877 [printer.py:init_temp_store()] - Temp store: ['temperature_sensor cartographer_coil', 'heater_bed', 'temperature_sensor chamber', 'temperature_sensor raspberry_pi', 'extruder']
+2024-05-17 13:16:40,832 [KlippyRest.py:_do_request()] - Sending get to http://127.0.0.1:7125/server/temperature_store
+2024-05-17 13:16:40,850 [printer.py:init_temp_store()] - Temp store: ['temperature_sensor cartographer_coil', 'heater_bed', 'temperature_sensor chamber', 'temperature_sensor raspberry_pi', 'extruder']
+2024-05-17 13:16:40,851 [KlippyRest.py:_do_request()] - Sending get to http://127.0.0.1:7125/server/temperature_store
+2024-05-17 13:16:40,884 [printer.py:init_temp_store()] - Temp store: ['temperature_sensor cartographer_coil', 'heater_bed', 'temperature_sensor chamber', 'temperature_sensor raspberry_pi', 'extruder']
+2024-05-17 13:16:45,832 [KlippyRest.py:_do_request()] - Sending get to http://127.0.0.1:7125/server/temperature_store
+2024-05-17 13:16:45,868 [printer.py:init_temp_store()] - Temp store: ['temperature_sensor cartographer_coil', 'heater_bed', 'temperature_sensor chamber', 'temperature_sensor raspberry_pi', 'extruder']
+2024-05-17 13:16:45,869 [KlippyRest.py:_do_request()] - Sending get to http://127.0.0.1:7125/server/temperature_store
+2024-05-17 13:16:45,898 [printer.py:init_temp_store()] - Temp store: ['temperature_sensor cartographer_coil', 'heater_bed', 'temperature_sensor chamber', 'temperature_sensor raspberry_pi', 'extruder']
+2024-05-17 13:16:50,832 [KlippyRest.py:_do_request()] - Sending get to http://127.0.0.1:7125/server/temperature_store
+2024-05-17 13:16:50,869 [printer.py:init_temp_store()] - Temp store: ['temperature_sensor cartographer_coil', 'heater_bed', 'temperature_sensor chamber', 'temperature_sensor raspberry_pi', 'extruder']
+2024-05-17 13:16:50,870 [KlippyRest.py:_do_request()] - Sending get to http://127.0.0.1:7125/server/temperature_store
+2024-05-17 13:16:50,903 [printer.py:init_temp_store()] - Temp store: ['temperature_sensor cartographer_coil', 'heater_bed', 'temperature_sensor chamber', 'temperature_sensor raspberry_pi', 'extruder']
+2024-05-17 13:16:55,832 [KlippyRest.py:_do_request()] - Sending get to http://127.0.0.1:7125/server/temperature_store
+2024-05-17 13:16:55,869 [printer.py:init_temp_store()] - Temp store: ['temperature_sensor cartographer_coil', 'heater_bed', 'temperature_sensor chamber', 'temperature_sensor raspberry_pi', 'extruder']
+2024-05-17 13:16:55,870 [KlippyRest.py:_do_request()] - Sending get to http://127.0.0.1:7125/server/temperature_store
+2024-05-17 13:16:55,905 [printer.py:init_temp_store()] - Temp store: ['temperature_sensor cartographer_coil', 'heater_bed', 'temperature_sensor chamber', 'temperature_sensor raspberry_pi', 'extruder']
+2024-05-17 13:17:00,832 [KlippyRest.py:_do_request()] - Sending get to http://127.0.0.1:7125/server/temperature_store
+2024-05-17 13:17:00,864 [printer.py:init_temp_store()] - Temp store: ['temperature_sensor cartographer_coil', 'heater_bed', 'temperature_sensor chamber', 'temperature_sensor raspberry_pi', 'extruder']
+2024-05-17 13:17:00,865 [KlippyRest.py:_do_request()] - Sending get to http://127.0.0.1:7125/server/temperature_store
+2024-05-17 13:17:00,892 [printer.py:init_temp_store()] - Temp store: ['temperature_sensor cartographer_coil', 'heater_bed', 'temperature_sensor chamber', 'temperature_sensor raspberry_pi', 'extruder']
+2024-05-17 13:17:05,832 [KlippyRest.py:_do_request()] - Sending get to http://127.0.0.1:7125/server/temperature_store
+2024-05-17 13:17:05,853 [printer.py:init_temp_store()] - Temp store: ['temperature_sensor cartographer_coil', 'heater_bed', 'temperature_sensor chamber', 'temperature_sensor raspberry_pi', 'extruder']
+2024-05-17 13:17:05,854 [KlippyRest.py:_do_request()] - Sending get to http://127.0.0.1:7125/server/temperature_store
+2024-05-17 13:17:05,873 [printer.py:init_temp_store()] - Temp store: ['temperature_sensor cartographer_coil', 'heater_bed', 'temperature_sensor chamber', 'temperature_sensor raspberry_pi', 'extruder']
+2024-05-17 13:17:10,832 [KlippyRest.py:_do_request()] - Sending get to http://127.0.0.1:7125/server/temperature_store
+2024-05-17 13:17:10,854 [printer.py:init_temp_store()] - Temp store: ['temperature_sensor cartographer_coil', 'heater_bed', 'temperature_sensor chamber', 'temperature_sensor raspberry_pi', 'extruder']
+2024-05-17 13:17:10,855 [KlippyRest.py:_do_request()] - Sending get to http://127.0.0.1:7125/server/temperature_store
+2024-05-17 13:17:10,878 [printer.py:init_temp_store()] - Temp store: ['temperature_sensor cartographer_coil', 'heater_bed', 'temperature_sensor chamber', 'temperature_sensor raspberry_pi', 'extruder']
+2024-05-17 13:17:15,832 [KlippyRest.py:_do_request()] - Sending get to http://127.0.0.1:7125/server/temperature_store
+2024-05-17 13:17:15,856 [printer.py:init_temp_store()] - Temp store: ['temperature_sensor cartographer_coil', 'heater_bed', 'temperature_sensor chamber', 'temperature_sensor raspberry_pi', 'extruder']
+2024-05-17 13:17:15,857 [KlippyRest.py:_do_request()] - Sending get to http://127.0.0.1:7125/server/temperature_store
+2024-05-17 13:17:15,878 [printer.py:init_temp_store()] - Temp store: ['temperature_sensor cartographer_coil', 'heater_bed', 'temperature_sensor chamber', 'temperature_sensor raspberry_pi', 'extruder']
+2024-05-17 13:17:20,832 [KlippyRest.py:_do_request()] - Sending get to http://127.0.0.1:7125/server/temperature_store
+2024-05-17 13:17:20,854 [printer.py:init_temp_store()] - Temp store: ['temperature_sensor cartographer_coil', 'heater_bed', 'temperature_sensor chamber', 'temperature_sensor raspberry_pi', 'extruder']
+2024-05-17 13:17:20,855 [KlippyRest.py:_do_request()] - Sending get to http://127.0.0.1:7125/server/temperature_store
+2024-05-17 13:17:20,876 [printer.py:init_temp_store()] - Temp store: ['temperature_sensor cartographer_coil', 'heater_bed', 'temperature_sensor chamber', 'temperature_sensor raspberry_pi', 'extruder']
+2024-05-17 13:17:25,832 [KlippyRest.py:_do_request()] - Sending get to http://127.0.0.1:7125/server/temperature_store
+2024-05-17 13:17:25,849 [printer.py:init_temp_store()] - Temp store: ['temperature_sensor cartographer_coil', 'heater_bed', 'temperature_sensor chamber', 'temperature_sensor raspberry_pi', 'extruder']
+2024-05-17 13:17:25,850 [KlippyRest.py:_do_request()] - Sending get to http://127.0.0.1:7125/server/temperature_store
+2024-05-17 13:17:25,866 [printer.py:init_temp_store()] - Temp store: ['temperature_sensor cartographer_coil', 'heater_bed', 'temperature_sensor chamber', 'temperature_sensor raspberry_pi', 'extruder']
+2024-05-17 13:17:30,832 [KlippyRest.py:_do_request()] - Sending get to http://127.0.0.1:7125/server/temperature_store
+2024-05-17 13:17:30,864 [printer.py:init_temp_store()] - Temp store: ['temperature_sensor cartographer_coil', 'heater_bed', 'temperature_sensor chamber', 'temperature_sensor raspberry_pi', 'extruder']
+2024-05-17 13:17:30,865 [KlippyRest.py:_do_request()] - Sending get to http://127.0.0.1:7125/server/temperature_store
+2024-05-17 13:17:30,900 [printer.py:init_temp_store()] - Temp store: ['temperature_sensor cartographer_coil', 'heater_bed', 'temperature_sensor chamber', 'temperature_sensor raspberry_pi', 'extruder']
+2024-05-17 13:17:35,831 [KlippyRest.py:_do_request()] - Sending get to http://127.0.0.1:7125/server/temperature_store
+2024-05-17 13:17:35,848 [printer.py:init_temp_store()] - Temp store: ['temperature_sensor cartographer_coil', 'heater_bed', 'temperature_sensor chamber', 'temperature_sensor raspberry_pi', 'extruder']
+2024-05-17 13:17:35,849 [KlippyRest.py:_do_request()] - Sending get to http://127.0.0.1:7125/server/temperature_store
+2024-05-17 13:17:35,868 [printer.py:init_temp_store()] - Temp store: ['temperature_sensor cartographer_coil', 'heater_bed', 'temperature_sensor chamber', 'temperature_sensor raspberry_pi', 'extruder']
+2024-05-17 13:17:40,832 [KlippyRest.py:_do_request()] - Sending get to http://127.0.0.1:7125/server/temperature_store
+2024-05-17 13:17:40,867 [printer.py:init_temp_store()] - Temp store: ['temperature_sensor cartographer_coil', 'heater_bed', 'temperature_sensor chamber', 'temperature_sensor raspberry_pi', 'extruder']
+2024-05-17 13:17:40,868 [KlippyRest.py:_do_request()] - Sending get to http://127.0.0.1:7125/server/temperature_store
+2024-05-17 13:17:40,905 [printer.py:init_temp_store()] - Temp store: ['temperature_sensor cartographer_coil', 'heater_bed', 'temperature_sensor chamber', 'temperature_sensor raspberry_pi', 'extruder']
+2024-05-17 13:17:45,832 [KlippyRest.py:_do_request()] - Sending get to http://127.0.0.1:7125/server/temperature_store
+2024-05-17 13:17:45,848 [printer.py:init_temp_store()] - Temp store: ['temperature_sensor cartographer_coil', 'heater_bed', 'temperature_sensor chamber', 'temperature_sensor raspberry_pi', 'extruder']
+2024-05-17 13:17:45,849 [KlippyRest.py:_do_request()] - Sending get to http://127.0.0.1:7125/server/temperature_store
+2024-05-17 13:17:45,867 [printer.py:init_temp_store()] - Temp store: ['temperature_sensor cartographer_coil', 'heater_bed', 'temperature_sensor chamber', 'temperature_sensor raspberry_pi', 'extruder']
+2024-05-17 13:17:50,832 [KlippyRest.py:_do_request()] - Sending get to http://127.0.0.1:7125/server/temperature_store
+2024-05-17 13:17:50,864 [printer.py:init_temp_store()] - Temp store: ['temperature_sensor cartographer_coil', 'heater_bed', 'temperature_sensor chamber', 'temperature_sensor raspberry_pi', 'extruder']
+2024-05-17 13:17:50,864 [KlippyRest.py:_do_request()] - Sending get to http://127.0.0.1:7125/server/temperature_store
+2024-05-17 13:17:50,896 [printer.py:init_temp_store()] - Temp store: ['temperature_sensor cartographer_coil', 'heater_bed', 'temperature_sensor chamber', 'temperature_sensor raspberry_pi', 'extruder']
+2024-05-17 13:17:55,832 [KlippyRest.py:_do_request()] - Sending get to http://127.0.0.1:7125/server/temperature_store
+2024-05-17 13:17:55,867 [printer.py:init_temp_store()] - Temp store: ['temperature_sensor cartographer_coil', 'heater_bed', 'temperature_sensor chamber', 'temperature_sensor raspberry_pi', 'extruder']
+2024-05-17 13:17:55,868 [KlippyRest.py:_do_request()] - Sending get to http://127.0.0.1:7125/server/temperature_store
+2024-05-17 13:17:55,897 [printer.py:init_temp_store()] - Temp store: ['temperature_sensor cartographer_coil', 'heater_bed', 'temperature_sensor chamber', 'temperature_sensor raspberry_pi', 'extruder']
+2024-05-17 13:18:00,832 [KlippyRest.py:_do_request()] - Sending get to http://127.0.0.1:7125/server/temperature_store
+2024-05-17 13:18:00,868 [printer.py:init_temp_store()] - Temp store: ['temperature_sensor cartographer_coil', 'heater_bed', 'temperature_sensor chamber', 'temperature_sensor raspberry_pi', 'extruder']
+2024-05-17 13:18:00,869 [KlippyRest.py:_do_request()] - Sending get to http://127.0.0.1:7125/server/temperature_store
+2024-05-17 13:18:00,908 [printer.py:init_temp_store()] - Temp store: ['temperature_sensor cartographer_coil', 'heater_bed', 'temperature_sensor chamber', 'temperature_sensor raspberry_pi', 'extruder']
+2024-05-17 13:18:05,832 [KlippyRest.py:_do_request()] - Sending get to http://127.0.0.1:7125/server/temperature_store
+2024-05-17 13:18:05,849 [printer.py:init_temp_store()] - Temp store: ['temperature_sensor cartographer_coil', 'heater_bed', 'temperature_sensor chamber', 'temperature_sensor raspberry_pi', 'extruder']
+2024-05-17 13:18:05,850 [KlippyRest.py:_do_request()] - Sending get to http://127.0.0.1:7125/server/temperature_store
+2024-05-17 13:18:05,867 [printer.py:init_temp_store()] - Temp store: ['temperature_sensor cartographer_coil', 'heater_bed', 'temperature_sensor chamber', 'temperature_sensor raspberry_pi', 'extruder']
+2024-05-17 13:18:10,832 [KlippyRest.py:_do_request()] - Sending get to http://127.0.0.1:7125/server/temperature_store
+2024-05-17 13:18:10,867 [printer.py:init_temp_store()] - Temp store: ['temperature_sensor cartographer_coil', 'heater_bed', 'temperature_sensor chamber', 'temperature_sensor raspberry_pi', 'extruder']
+2024-05-17 13:18:10,869 [KlippyRest.py:_do_request()] - Sending get to http://127.0.0.1:7125/server/temperature_store
+2024-05-17 13:18:10,903 [printer.py:init_temp_store()] - Temp store: ['temperature_sensor cartographer_coil', 'heater_bed', 'temperature_sensor chamber', 'temperature_sensor raspberry_pi', 'extruder']
+2024-05-17 13:18:15,832 [KlippyRest.py:_do_request()] - Sending get to http://127.0.0.1:7125/server/temperature_store
+2024-05-17 13:18:15,868 [printer.py:init_temp_store()] - Temp store: ['temperature_sensor cartographer_coil', 'heater_bed', 'temperature_sensor chamber', 'temperature_sensor raspberry_pi', 'extruder']
+2024-05-17 13:18:15,869 [KlippyRest.py:_do_request()] - Sending get to http://127.0.0.1:7125/server/temperature_store
+2024-05-17 13:18:15,900 [printer.py:init_temp_store()] - Temp store: ['temperature_sensor cartographer_coil', 'heater_bed', 'temperature_sensor chamber', 'temperature_sensor raspberry_pi', 'extruder']
+2024-05-17 13:18:20,832 [KlippyRest.py:_do_request()] - Sending get to http://127.0.0.1:7125/server/temperature_store
+2024-05-17 13:18:20,868 [printer.py:init_temp_store()] - Temp store: ['temperature_sensor cartographer_coil', 'heater_bed', 'temperature_sensor chamber', 'temperature_sensor raspberry_pi', 'extruder']
+2024-05-17 13:18:20,869 [KlippyRest.py:_do_request()] - Sending get to http://127.0.0.1:7125/server/temperature_store
+2024-05-17 13:18:20,909 [printer.py:init_temp_store()] - Temp store: ['temperature_sensor cartographer_coil', 'heater_bed', 'temperature_sensor chamber', 'temperature_sensor raspberry_pi', 'extruder']
+2024-05-17 13:18:25,832 [KlippyRest.py:_do_request()] - Sending get to http://127.0.0.1:7125/server/temperature_store
+2024-05-17 13:18:25,850 [printer.py:init_temp_store()] - Temp store: ['temperature_sensor cartographer_coil', 'heater_bed', 'temperature_sensor chamber', 'temperature_sensor raspberry_pi', 'extruder']
+2024-05-17 13:18:25,850 [KlippyRest.py:_do_request()] - Sending get to http://127.0.0.1:7125/server/temperature_store
+2024-05-17 13:18:25,867 [printer.py:init_temp_store()] - Temp store: ['temperature_sensor cartographer_coil', 'heater_bed', 'temperature_sensor chamber', 'temperature_sensor raspberry_pi', 'extruder']
+2024-05-17 13:18:30,832 [KlippyRest.py:_do_request()] - Sending get to http://127.0.0.1:7125/server/temperature_store
+2024-05-17 13:18:30,869 [printer.py:init_temp_store()] - Temp store: ['temperature_sensor cartographer_coil', 'heater_bed', 'temperature_sensor chamber', 'temperature_sensor raspberry_pi', 'extruder']
+2024-05-17 13:18:30,869 [KlippyRest.py:_do_request()] - Sending get to http://127.0.0.1:7125/server/temperature_store
+2024-05-17 13:18:30,905 [printer.py:init_temp_store()] - Temp store: ['temperature_sensor cartographer_coil', 'heater_bed', 'temperature_sensor chamber', 'temperature_sensor raspberry_pi', 'extruder']
+2024-05-17 13:18:35,832 [KlippyRest.py:_do_request()] - Sending get to http://127.0.0.1:7125/server/temperature_store
+2024-05-17 13:18:35,853 [printer.py:init_temp_store()] - Temp store: ['temperature_sensor cartographer_coil', 'heater_bed', 'temperature_sensor chamber', 'temperature_sensor raspberry_pi', 'extruder']
+2024-05-17 13:18:35,854 [KlippyRest.py:_do_request()] - Sending get to http://127.0.0.1:7125/server/temperature_store
+2024-05-17 13:18:35,880 [printer.py:init_temp_store()] - Temp store: ['temperature_sensor cartographer_coil', 'heater_bed', 'temperature_sensor chamber', 'temperature_sensor raspberry_pi', 'extruder']
