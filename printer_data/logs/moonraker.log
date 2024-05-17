@@ -1,0 +1,282 @@
+-------------------- Log Start | Fri May 17 09:25:30 2024 --------------------
+platform: Linux-6.6.20+rpt-rpi-v8-aarch64-with-glibc2.36
+data_path: /home/pi/printer_data
+is_default_data_path: False
+config_file: /home/pi/printer_data/config/moonraker.conf
+startup_warnings: []
+verbose: False
+debug: False
+asyncio_debug: False
+is_backup_config: False
+is_python_package: False
+instance_uuid: 7fa713e0a054423cb4f846906e7946c4
+unix_socket_path: /home/pi/printer_data/comms/moonraker.sock
+software_version: v0.8.0-352-g326d23a
+git_branch: master
+git_remote: origin
+git_repo_url: https://github.com/Arksine/moonraker.git
+modified_files: []
+unofficial_components: []
+log_file: /home/pi/printer_data/logs/moonraker.log
+python_version: 3.11.2 (main, Mar 13 2023, 12:18:29) [GCC 12.2.0]
+launch_args: /home/pi/moonraker-env/bin/python /home/pi/moonraker/moonraker/moonraker.py -d /home/pi/printer_data
+msgspec_enabled: False
+uvloop_enabled: False
+
+#################### Moonraker Configuration ####################
+
+[server]
+host = 0.0.0.0
+port = 7125
+klippy_uds_address = /home/pi/printer_data/comms/klippy.sock
+
+[authorization]
+trusted_clients = 
+	10.0.0.0/8
+	127.0.0.0/8
+	169.254.0.0/16
+	172.16.0.0/12
+	192.168.0.0/16
+	FE80::/10
+	::1/128
+cors_domains = 
+	*.lan
+	*.local
+	*://localhost
+	*://localhost:*
+	*://my.mainsail.xyz
+	*://app.fluidd.xyz
+
+[octoprint_compat]
+
+[file_manager]
+enable_object_processing = True
+
+[data_store]
+temperature_store_size = 600
+gcode_store_size = 1000
+
+[history]
+
+[update_manager]
+channel = dev
+refresh_interval = 168
+
+[update_manager fluidd-config]
+type = git_repo
+primary_branch = master
+path = ~/fluidd-config
+origin = https://github.com/fluidd-core/fluidd-config.git
+managed_services = klipper
+
+[update_manager fluidd]
+type = web
+channel = stable
+repo = fluidd-core/fluidd
+path = ~/fluidd
+
+[update_manager cartographer]
+type = git_repo
+path = ~/cartographer-klipper
+channel = dev
+origin = https://github.com/Cartographer3D/cartographer-klipper.git
+env = ~/klippy-env/bin/python
+requirements = requirements.txt
+install_script = install.sh
+is_system_service = False
+managed_services = klipper
+info_tags = 
+	desc=Cartographer Probe
+
+[update_manager Klipper-Adaptive-Meshing-Purging]
+type = git_repo
+channel = dev
+path = ~/Klipper-Adaptive-Meshing-Purging
+origin = https://github.com/kyleisah/Klipper-Adaptive-Meshing-Purging.git
+managed_services = klipper
+primary_branch = main
+
+[update_manager led_effect]
+type = git_repo
+path = ~/klipper-led_effect
+origin = https://github.com/julianschill/klipper-led_effect.git
+is_system_service = False
+
+[update_manager klipper-backup]
+type = git_repo
+path = ~/klipper-backup
+origin = https://github.com/Staubgeborener/klipper-backup.git
+managed_services = moonraker
+primary_branch = main
+
+[update_manager crowsnest]
+type = git_repo
+path = ~/crowsnest
+origin = https://github.com/mainsail-crew/crowsnest.git
+install_script = tools/pkglist.sh
+
+[update_manager Klippain-ShakeTune]
+type = git_repo
+origin = https://github.com/Frix-x/klippain-shaketune.git
+path = ~/klippain_shaketune
+virtualenv = ~/klippain_shaketune-env
+requirements = requirements.txt
+system_dependencies = system-dependencies.json
+primary_branch = main
+managed_services = klipper
+
+#################################################################
+All Configuration Files:
+/home/pi/printer_data/config/moonraker.conf
+#################################################################
+
+Database Versions: pylmdb = 1.4.1, lmdb = (0, 9, 29)
+Unsafe Shutdown Count: 25
+
+System Info:
+
+***python***
+  version: (3, 11, 2, 'final', 0)
+  version_string: 3.11.2 (main, Mar 13 2023, 12:18:29) [GCC 12.2.0]
+
+***cpu_info***
+  cpu_count: 4
+  bits: 64bit
+  processor: aarch64
+  cpu_desc: 
+  serial_number: 100000004cd80594
+  hardware_desc: 
+  model: Raspberry Pi 4 Model B Rev 1.4
+  total_memory: 1891240
+  memory_units: kB
+
+***sd_info***
+  manufacturer_id: 03
+  manufacturer: Sandisk
+  oem_id: 5344
+  product_name: SL16G
+  product_revision: 8.0
+  serial_number: 4a281213
+  manufacturer_date: 6/2017
+  capacity: 14.8 GiB
+  total_bytes: 15931539456
+
+***distribution***
+  name: Debian GNU/Linux 12 (bookworm)
+  id: debian
+  version: 12
+  version_parts: {'major': '12', 'minor': '', 'build_number': ''}
+  like: 
+  codename: bookworm
+  release_info: {}
+  kernel_version: 6.6.20+rpt-rpi-v8
+
+***virtualization***
+  virt_type: none
+  virt_identifier: none
+
+***network***
+
+***canbus***
+
+***Allowed Services***
+  klipper_mcu
+  webcamd
+  MoonCord
+  KlipperScreen
+  moonraker-telegram-bot
+  moonraker-obico
+  sonar
+  crowsnest
+  octoeverywhere
+  ratos-configurator
+Module libcamera unavailble, import failed
+
+Systemd unit moonraker.service:
+unit_name: moonraker.service
+is_default: True
+manager: systemd
+Properties:
+**Requires=['network-online.target', 'sysinit.target', '-.mount', 'system.slice']
+**After=['systemd-journald.socket', 'network-online.target', 'basic.target', 'system.slice', 'sysinit.target', '-.mount']
+**SupplementaryGroups=['moonraker-admin']
+**EnvironmentFiles=/home/pi/printer_data/systemd/moonraker.env
+**ExecStart=/home/pi/moonraker-env/bin/python $MOONRAKER_ARGS
+**WorkingDirectory=/home/pi/moonraker
+**FragmentPath=/etc/systemd/system/moonraker.service
+**Description=API Server for Klipper SV1
+**User=pi
+
+Systemd unit klipper.service:
+unit_name: klipper.service
+is_default: True
+manager: systemd
+Properties:
+**Requires=['sysinit.target', 'system.slice', '-.mount']
+**After=['systemd-journald.socket', 'sysinit.target', 'basic.target', 'system.slice', '-.mount', 'network-online.target']
+**SupplementaryGroups=[]
+**EnvironmentFiles=/home/pi/printer_data/systemd/klipper.env
+**ExecStart=/home/pi/klippy-env/bin/python $KLIPPER_ARGS
+**WorkingDirectory=/home/pi/klipper
+**FragmentPath=/etc/systemd/system/klipper.service
+**Description=Klipper 3D Printer Firmware SV1
+**User=pi
+Git Repo moonraker: No warnings detected
+Git Repo klipper: Warnings detected:
+  Repo has untracked source files: ['klippy/extras/gcode_shell_command.py', 'klippy/extras/led_effect.py']
+Git Repo fluidd-config: No warnings detected
+Git Repo cartographer: No warnings detected
+Git Repo Klipper-Adaptive-Meshing-Purging: No warnings detected
+Git Repo led_effect: No warnings detected
+Git Repo klipper-backup: No warnings detected
+Git Repo crowsnest: No warnings detected
+Git Repo Klippain-ShakeTune: No warnings detected
+Klipper Version: v0.12.0-179-g434770ea-dirty
+2024-05-17 11:25:30,760 [klippy_connection.py:_process_status_update()] - Klippy has shutdown
+2024-05-17 11:25:30,762 [proc_stats.py:_handle_shutdown()] - 
+Moonraker System Usage Statistics:
+System Time: 1715937901.558206, Usage: 1.31%, Memory: 47124 kB
+System Time: 1715937902.558550, Usage: 1.27%, Memory: 47124 kB
+System Time: 1715937903.560614, Usage: 0.87%, Memory: 47124 kB
+System Time: 1715937904.564849, Usage: 0.88%, Memory: 47124 kB
+System Time: 1715937905.561904, Usage: 1.33%, Memory: 47124 kB
+System Time: 1715937906.561707, Usage: 1.61%, Memory: 47124 kB
+System Time: 1715937907.561928, Usage: 0.74%, Memory: 47124 kB
+System Time: 1715937908.562288, Usage: 0.75%, Memory: 47124 kB
+System Time: 1715937909.562721, Usage: 1.08%, Memory: 47124 kB
+System Time: 1715937910.563782, Usage: 1.19%, Memory: 47128 kB
+System Time: 1715937911.564837, Usage: 1.05%, Memory: 47128 kB
+System Time: 1715937912.565682, Usage: 0.74%, Memory: 47128 kB
+System Time: 1715937913.565925, Usage: 0.73%, Memory: 47128 kB
+System Time: 1715937914.566998, Usage: 0.73%, Memory: 47128 kB
+System Time: 1715937915.569335, Usage: 0.97%, Memory: 47128 kB
+System Time: 1715937916.570353, Usage: 1.79%, Memory: 47132 kB
+System Time: 1715937917.570701, Usage: 1.19%, Memory: 47132 kB
+System Time: 1715937918.573150, Usage: 1.21%, Memory: 47132 kB
+System Time: 1715937919.573699, Usage: 1.83%, Memory: 47136 kB
+System Time: 1715937920.575214, Usage: 1.25%, Memory: 47136 kB
+System Time: 1715937921.576322, Usage: 1.83%, Memory: 47136 kB
+System Time: 1715937922.577405, Usage: 1.27%, Memory: 47136 kB
+System Time: 1715937923.576627, Usage: 1.2%, Memory: 47136 kB
+System Time: 1715937924.578074, Usage: 1.15%, Memory: 47136 kB
+System Time: 1715937925.577760, Usage: 1.27%, Memory: 47136 kB
+System Time: 1715937926.578778, Usage: 1.09%, Memory: 47140 kB
+System Time: 1715937927.579538, Usage: 0.71%, Memory: 47140 kB
+System Time: 1715937928.580405, Usage: 0.74%, Memory: 47140 kB
+System Time: 1715937929.581973, Usage: 1.1%, Memory: 47140 kB
+System Time: 1715937930.586545, Usage: 1.82%, Memory: 47140 kB
+CPU Temperature: 31.154
+2024-05-17 11:25:30,763 [proc_stats.py:_handle_shutdown()] - Throttled Flags: 
+2024-05-17 11:25:32,962 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2024-05-17 11:25:34,220 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2024-05-17 11:25:39,056 [file_manager.py:get_file_list()] - Updating File List <gcodes>...
+2024-05-17 11:25:39,305 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2024-05-17 11:25:39,308 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2024-05-17 11:25:39,558 [job_state.py:_handle_started()] - Job state initialized: standby
+2024-05-17 11:25:39,815 [klippy_connection.py:_check_ready()] - Klippy ready
+2024-05-17 11:25:40,308 [data_store.py:_init_sensors()] - Configuring available sensors: ['temperature_sensor cartographer_coil', 'heater_bed', 'temperature_sensor chamber', 'temperature_sensor raspberry_pi', 'extruder']
+2024-05-17 12:55:31,346 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.201.205
+2024-05-17 12:55:31,518 [application.py:log_request()] - 101 GET /websocket?token=OEF7TEXZA6HCGV3LXP3DC24Q2SNYXWTM (192.168.201.205) [_TRUSTED_USER_] 1.26ms
+2024-05-17 12:55:31,519 [websockets.py:open()] - Websocket Opened: ID: 547689778896, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0, Host Name: 192.168.201.74
+2024-05-17 12:55:31,521 [websockets.py:_handle_identify()] - Websocket 547689778896 Client Identified - Name: fluidd, Version: 1.30.0-f3e4ac3, Type: web
+2024-05-17 12:55:31,521 [file_manager.py:get_file_list()] - Updating File List <config>...
